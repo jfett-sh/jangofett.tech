@@ -28,7 +28,7 @@ baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://jangofett.tech" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jango.sh
 github_username:  kpako396p
-
+github: [metadata]
 # Build settings
 # theme: minima
 # plugins:
