@@ -1,13 +1,6 @@
 ---
 layout: default
 ---
-<ul id="tags">
-  {% for tag in page.tags %}
-    {% capture tag_name %}{{ tag }}{% endcapture %}
-    <li id="tag"><nobr><a href="/tag/{{ tag_name }}"><div class="tag">[ #{{ tag_name }} ]</div></a></nobr></li>
-  {% endfor %}
-</ul>
-<!-- <hr> -->
 {% include share-buttons.html %}
 <section id="main_content">
   {{ content }}
