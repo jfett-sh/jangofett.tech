@@ -28,6 +28,7 @@ body {
 p {
     color: #F5F5F5;
     font-family: 'Montserrat', sans-serif;
+    font-size: 12pt;
 }
 
 h2 {
@@ -36,4 +37,16 @@ h2 {
 
 a {
     color: #ffa500;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+nav li {
+    margin: 0 1rem;
+    list-style: none;
 }

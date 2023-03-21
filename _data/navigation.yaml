@@ -1,0 +1,7 @@
+main:
+  - title: 🏠
+    url: /
+  - title: 📖
+    url: /posts/
+  - title: 🤓
+    url: /about/

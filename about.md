@@ -1,18 +1,10 @@
 ---
 layout: default
-title: About
+title: about
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+follow me: <br>
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+<i class="fa-brands fa-twitter" style="color: #1da1f2;"></i>  twitter: [@jango.sh](https://twitter.com/jango_sh)<br>
+<i class="fa-brands fa-github"></i>  github: [jfett-sh](https://github.com/jango-sh)<br>
