@@ -1,0 +1,39 @@
+---
+---
+@import "{{ site.theme }}";
+html, body {
+    margin: 0;
+ }
+ 
+#container {
+    background-color: #1c1c1c;
+    background: #1c1c1c;
+    color: #F5F5F5;
+    min-height: initial;
+    min-width: initial;
+    padding-bottom: 10%;
+
+}
+
+body {
+    // background-color: #1c1c1c;
+    background: none;
+    text-shadow: none;
+    color: #F5F5F5;
+    height: 100vh;
+    width: 100vw;
+    background-color: #1c1c1c;
+}
+
+p {
+    color: #F5F5F5;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    color: #F5F5F5;
+}
+
+a {
+    color: #ffa500;
+}

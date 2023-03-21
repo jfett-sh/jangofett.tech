@@ -6,6 +6,8 @@ categories: posts
 ---
 Since its inception in 2009, GoLang has been gaining popularity among developers as a modern programming language that's easy to learn and highly efficient. GoLang was initially developed by Google, and its popularity has been growing ever since. So, why is GoLang becoming a popular choice for modern software development? In this post, we'll explore some of the key reasons.
 
+С момента своего создания в 2009 году GoLang набирает популярность среди разработчиков как современный язык программирования, простой в освоении и высокоэффективный. GoLang изначально был разработан Google, и с тех пор его популярность неуклонно растет. Итак, почему GoLang становится популярным выбором для разработки современного программного обеспечения? В этом посте мы рассмотрим некоторые из ключевых причин.
+
 Simplicity and ease of use:
 One of the most significant advantages of GoLang is its simplicity. The language has a relatively small and straightforward syntax, which makes it easy to learn, use, and maintain. The language also provides a standard library, making it easier for developers to write clean and efficient code.
 
