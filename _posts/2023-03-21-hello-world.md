@@ -1,14 +1,14 @@
 ---
-layout: default
+layout: post
 title:  "Hello world in golang"
 date:   2023-03-21 00:13:42 +0400
-categories: posts
+tags: code
 ---
 This is a Go language program that creates a simple web server that listens on port 8080 and responds to any incoming HTTP requests to the root URL ("/") with the message "Hello, world!".
 
 The program imports two packages: "fmt" for formatting and printing text, and "net/http" for creating HTTP servers and handling incoming requests.
 
-{% highlight ruby %}
+{% highlight golang %}
 package main
 
 import (

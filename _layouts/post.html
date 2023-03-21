@@ -21,9 +21,15 @@
         <header>
           <h1><a href="{{ site.url }}">{{ site.title }}</a></h1>
           {% include menu.html %}
-          <!-- <h4>{{ page.description | default: site.description | default: site.github.project_tagline }}</h4> -->
         </header>
-        <h2> {{ page.title | default: site.description | default: site.github.repository_name }}</h2>
+        <h2>> {{ page.title | default: site.description | default: site.github.repository_name }}</h2>
+        <ul id="tags">
+          {% for tag in page.tags %}
+            {% capture tag_name %}{{ tag }}{% endcapture %}
+            <li id="tag"><nobr><a href="/tag/{{ tag_name }}"><div class="tag">[ #{{ tag_name }} ]</div></a></nobr></li>
+          {% endfor %}
+        </ul>
+        <hr>
         <section id="main_content">
           {{ content }}
         </section>

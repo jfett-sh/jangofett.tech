@@ -3,5 +3,7 @@ main:
     url: /
   - title: 📖
     url: /posts/
+  - title: 🏷️
+    url: /tags/
   - title: 🤓
     url: /about/
