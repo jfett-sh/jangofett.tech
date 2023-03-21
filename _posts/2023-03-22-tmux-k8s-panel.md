@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How to setup panel in tmux with kubernetes cluster and namespace"
+title:  "How to setup panel in tmux with current kubernetes cluster and namespace"
 date:   2023-03-22 01:29:00 +0400
 tags: dotfiles tmux kubernetes
 ---
