@@ -1,36 +1,13 @@
-<!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
-  <head>
-    <meta charset='utf-8'>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <script src="https://kit.fontawesome.com/eb13f17971.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="{{ 'assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <link rel="stylesheet" type="text/css" href="{{ 'assets/css/print.css' | relative_url }}" media="print">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
-    {% include analytics.html %}
-  </head>
-  <body>
-    <div id="container">
-      <div class="inner">
-        <header>
-          <h1><a href="{{ site.url }}">{{ site.title }}</a></h1>
-          {% include menu.html %}
-        </header>
-        <h2>> {{ page.title | default: site.description | default: site.github.repository_name }}</h2>
-        <ul id="tags">
-          {% for tag in page.tags %}
-            {% capture tag_name %}{{ tag }}{% endcapture %}
-            <li id="tag"><nobr><a href="/tag/{{ tag_name }}"><div class="tag">[ #{{ tag_name }} ]</div></a></nobr></li>
-          {% endfor %}
-        </ul>
-        <hr>
-        <section id="main_content">
-          {{ content }}
-        </section>
-      </div>
-    </div>
-  </body>
-</html>
+---
+layout: default
+---
+<ul id="tags">
+  {% for tag in page.tags %}
+    {% capture tag_name %}{{ tag }}{% endcapture %}
+    <li id="tag"><nobr><a href="/tag/{{ tag_name }}"><div class="tag">[ #{{ tag_name }} ]</div></a></nobr></li>
+  {% endfor %}
+</ul>
+<hr>
+<section id="main_content">
+  {{ content }}
+</section>
